@@ -89,4 +89,12 @@ Delete all stopped containers, images and unused networks
 ```
 docker system prune
 ```
+Delete docker container
+```
+docker container rm container_id
+```
+Delete docker image
+```
+docker image rm image_id
+```
 
