@@ -1,6 +1,6 @@
-#Commands#
+# Commands
 
-##virtualenv, virtualenvwrapper##
+## virtualenv, virtualenvwrapper
 you can create a virtualenv using the following command:
 ```
 virtualenv my_name
