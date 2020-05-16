@@ -1,24 +1,11 @@
 # Commands
 
 ## virtualenv, virtualenvwrapper
-you can create a virtualenv using the following command:
+
 ```
-virtualenv my_name
-```
-To create a Python 2.7 virtual environment, use the following command:
-```
-virtualenv -p /usr/bin/python2.7 virtualenv_name
-```
-to activate virtual environment
-```
-source virtualenv_name/bin/activate
-```
-activate virtualenv in my directory
-```
-source Documents/virtualenvs/realsense/bin/activate
-```
-to deactivate virtualenv
-```
+virtualenv my_name                                   # create virtualenv
+virtualenv -p /usr/bin/python2.7 virtualenv_name     # create python2.7 virtualenv
+source Documents/virtualenvs/realsense/bin/activate  # activate virtualenv in my directory
 deactivate
 ```
 virtualenv files are located in home directory but hidden
