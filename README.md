@@ -82,13 +82,9 @@ pandas
 Then do the rest build image run container
 
 ### docker general
-Show images
 ```
-docker images
-```
-Check info 
-```
-docker info
+docker images       # Show images
+docker info         # Check info 
 ```
 List all running Docker containers
 ```
@@ -118,4 +114,4 @@ SSH into a container
 ```
 docker run -it container_id bash
 ```
-
+```
