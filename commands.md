@@ -23,7 +23,7 @@ deactivate
 ```
 virtualenv files are located in home directory but hidden
 
-##C++##
+## C++
 how to run a c++ program
 first use this command to compile 
 ```
@@ -34,7 +34,7 @@ then run by
 ./test 
 ```
 
-##bash general##
+## bash general
 This will search all directories from the root for a file.
 ```
 find / -name file
@@ -44,8 +44,8 @@ show hidden files(click in file manager)
 control + h 
 ```
 
-##Docker##
-###How to create a docker container###
+## Docker
+### How to create a docker container
 1. Create a dockerfile named Dockerfile. Then add these lines into it
 ```
 FROM alpine
@@ -60,7 +60,7 @@ It should output successfully built xxxxx
 ``` 
 docker run --name container_name xxxxx
 ```
-###docker general###
+### docker general
 Show images
 ```
 docker images
