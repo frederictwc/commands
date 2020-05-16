@@ -65,6 +65,9 @@ Show images
 ```
 docker images
 ```
-
+Check info 
+```
+docker info
+```
 
 
