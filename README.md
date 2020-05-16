@@ -81,4 +81,8 @@ Start an existing container[-it: interactive]
 ```
 docker start [options] container_id 
 ```
+Delete all stopped containers, images and unused networks
+```
+docker system prune
+```
 
