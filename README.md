@@ -56,7 +56,7 @@ CMD ['echo','hi']
 docker build . 
 ```
 It should output successfully built xxxxx
-3. Create container. With name of container= container_name
+3. Create and start container. With name of container= container_name
 ``` 
 docker run --name container_name xxxxx
 ```
@@ -69,5 +69,16 @@ Check info
 ```
 docker info
 ```
-
+List all running Docker containers
+```
+docker ps
+```
+List all containers both running and stopped
+```
+docker ps -a
+```
+Start an existing container[-it: interactive]
+```
+docker start [options] container_id 
+```
 
