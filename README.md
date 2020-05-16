@@ -43,6 +43,10 @@ show hidden files(click in file manager)
 ```
 control + h 
 ```
+print a message
+```
+echo 'Hello world'
+```
 
 ## Docker
 ### How to create a docker container
