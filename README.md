@@ -23,9 +23,9 @@ then run by
 
 ## bash general
 ```
-find / -name file   # search all directories from the root for a file. 
-control + h  # show hidden files in GUI
-echo 'Hello world' #print
+find / -name file    # search all directories from the root for a file. 
+control + h          # show hidden files in GUI
+echo 'Hello world'   # print
 ```
 
 ## Docker
