@@ -64,6 +64,23 @@ It should output successfully built xxxxx
 ``` 
 docker run --name container_name xxxxx
 ```
+### How to run a python script inside a container 
+Create a Dockerfile as follows:
+```
+FROM python:3.7
+WORKDIR /usr/src/app     #This is where everything will be run
+COPY requirements.txt ./ #copy this file to current dir
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+CMD ["python","./python-script.py"]
+```
+Create a requirements.txt file 
+```
+numpy
+pandas
+```
+Then do the rest build image run container
+
 ### docker general
 Show images
 ```
@@ -96,5 +113,9 @@ docker container rm container_id
 Delete docker image
 ```
 docker image rm image_id
+```
+SSH into a container
+```
+docker run -it container_id bash
 ```
 
