@@ -22,17 +22,10 @@ then run by
 ```
 
 ## bash general
-This will search all directories from the root for a file.
 ```
-find / -name file
-```
-show hidden files(click in file manager)
-```
-control + h 
-```
-print a message
-```
-echo 'Hello world'
+find / -name file   # search all directories from the root for a file. 
+control + h  # show hidden files in GUI
+echo 'Hello world' #print
 ```
 
 ## Docker
