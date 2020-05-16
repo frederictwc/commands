@@ -1,6 +1,6 @@
 # Commands#
 
-## virtualenv, virtualenvwrapper## you can create a virtualenv using the following command:
+## virtualenv, virtualenvwrapper ## you can create a virtualenv using the following command:
 
 virtualenv my_name
 To create a Python 2.7 virtual environment, use the following command:
