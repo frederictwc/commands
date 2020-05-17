@@ -48,12 +48,15 @@ docker run --name container_name xxxxx
 Create a Dockerfile as follows:
 ```
 FROM python:3.7
-WORKDIR /usr/src/app     #This is where everything will be run
-COPY requirements.txt ./ #copy this file to current dir
+WORKDIR /usr/src/app                               # This is where everything will be run
+COPY requirements.txt ./                           # copy this file to current dir
 RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
+RUN apt-get update
+RUN apt-get install libgtk2.0-dev
+COPY . .                                           # copy everything in cur dir to workdir
 CMD ["python","./python-script.py"]
 ```
+A "." simply means current working dir. 
 Create a requirements.txt file 
 ```
 numpy
