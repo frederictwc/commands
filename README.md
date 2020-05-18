@@ -66,8 +66,8 @@ docker start [options] container_id # Start an existing container[-it: interacti
 docker system prune                 # Delete all stopped containers, images and unused networks
 docker container rm container_id    # Delete docker container
 docker image rm image_id            # Delete docker image
-docker run -it container_id bash    # SSH into a container
-exit                                # exit SSHS
+docker run -it image_id bash    # SSH into a container
+exit                                # exit SSH
 ```
 
 ## matplotlib
