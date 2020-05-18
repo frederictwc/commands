@@ -50,11 +50,11 @@ pandas
 ```
 Then build 
 ```
-docker build -t container_name:container_tag .
+docker build -t image_name:image_tag_tag .
 ```
 Create and start container. With name of container= container_name
 ``` 
-docker run --name container_name xxxxx
+docker run --name container_name image_tag
 ```
 ### docker general
 ```
