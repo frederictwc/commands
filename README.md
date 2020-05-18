@@ -29,21 +29,7 @@ echo 'Hello world'   # print
 ```
 
 ## Docker
-### How to create a docker container
-1. Create a dockerfile named Dockerfile. Then add these lines into it
-```
-FROM alpine
-CMD ['echo','hi']
-```
-2. Build image: In dockerfile directory type
-```
-docker build . 
-```
-It should output successfully built xxxxx
-3. Create and start container. With name of container= container_name
-``` 
-docker run --name container_name xxxxx
-```
+
 ### How to run a python script inside a container 
 Create a Dockerfile as follows:
 ```
@@ -62,8 +48,14 @@ Create a requirements.txt file
 numpy
 pandas
 ```
-Then do the rest build image run container
-
+Then build 
+```
+docker build -t container_name:container_tag .
+```
+Create and start container. With name of container= container_name
+``` 
+docker run --name container_name xxxxx
+```
 ### docker general
 ```
 docker images                       # Show images
