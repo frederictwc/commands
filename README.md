@@ -69,3 +69,16 @@ docker image rm image_id            # Delete docker image
 docker run -it container_id bash    # SSH into a container
 exit                                # exit SSHS
 ```
+
+## matplotlib
+Plot in loop
+```python
+from matplotlib import pyplot as plt
+try:
+    plt.ion()
+    while True:
+        plt.plot(array)
+        plt.draw()
+        plt.pause(0.1)
+        plt.clf()
+```
