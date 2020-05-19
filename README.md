@@ -58,17 +58,18 @@ docker run --name container_name image_tag
 ```
 ### docker general
 ```
-docker images                       # Show images
-docker info                         # Check info 
-docker ps                           # List all running Docker containers
-docker ps -a                        # List all containers both running and stopped
-docker start [options] container_id # Start an existing container[-it: interactive]
-docker system prune                 # Delete all stopped containers, images and unused networks
-docker container rm container_id    # Delete docker container
-docker image rm image_id            # Delete docker image
-docker run -it image_id bash        # SSH into a container
-exit                                # exit SSH
-x11docker image_id                  #run docker container with GUI output
+docker images                                 # Show images
+docker info                                   # Check info 
+docker ps                                     # List all running Docker containers
+docker ps -a                                  # List all containers both running and stopped
+docker start [options] container_id           # Start an existing container[-it: interactive]
+docker system prune                           # Delete all stopped containers, images and unused networks
+docker container rm container_id              # Delete docker container
+docker image rm image_id                      # Delete docker image
+docker run -it image_id bash                  # SSH into a container
+exit                                          # exit SSH
+x11docker image_id                            #run docker container with GUI output
+docker rm $(docker ps -a -f status=exited -q) #delete all inactive containers
 ```
 
 ## matplotlib
