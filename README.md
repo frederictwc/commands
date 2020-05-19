@@ -70,7 +70,9 @@ docker run -it image_id bash                  # SSH into a container
 exit                                          # exit SSH
 x11docker image_id                            #run docker container with GUI output
 docker rm $(docker ps -a -f status=exited -q) #delete all inactive containers
-```
+docker run --device=/dev/video3 image_id      # pass a device and run container
+x11docker --share /dev/usb2 realsense         #pass a device and run GUI container
+` ``
 
 ## matplotlib
 Plot in loop
