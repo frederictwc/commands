@@ -70,8 +70,10 @@ docker run -it image_id bash                  # SSH into a container
 exit                                          # exit SSH
 x11docker image_id                            #run docker container with GUI output
 docker rm $(docker ps -a -f status=exited -q) #delete all inactive containers
-docker run --device=/dev/video3 image_id      # pass a device and run container
+docker run --device=/dev/video3 image_id      # pass a device and run container(doesnt seem to work,use next one below)
+docker run --privileged image_id              # pass all devices to container
 x11docker --share /dev/usb2 realsense         #pass a device and run GUI container
+x11docker --webcam image_id                   # pass any webcam into GUI container
 ```
 
 ## matplotlib
