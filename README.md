@@ -29,6 +29,7 @@ echo 'Hello world'                                 # print
 scp /path/to/file username@a:/path/to/destination  # to copy a file from B to A while logged into B
 scp username@b:/path/to/file /path/to/destination  # To copy a file from B to A while logged into A
 lscpu                                              # check cpu hardware, architecture
+hostnamectl                                        # check OS 
 ```
 
 ## Docker
