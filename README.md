@@ -23,9 +23,12 @@ then run by
 
 ## bash general
 ```
-find / -name file    # search all directories from the root for a file. 
-control + h          # show hidden files in GUI
-echo 'Hello world'   # print
+find / -name file                                  # search all directories from the root for a file. 
+control + h                                        # show hidden files in GUI
+echo 'Hello world'                                 # print
+scp /path/to/file username@a:/path/to/destination  # to copy a file from B to A while logged into B
+scp username@b:/path/to/file /path/to/destination  # To copy a file from B to A while logged into A
+lscpu                                              # check cpu hardware, architecture
 ```
 
 ## Docker
