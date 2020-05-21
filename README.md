@@ -32,6 +32,7 @@ scp username@b:/path/to/file /path/to/destination  # To copy a file from B to A 
 lscpu                                              # check cpu hardware, architecture
 hostnamectl                                        # check OS 
 df                                                 # check disk space
+hostname -I                                        # get IP address
 ```
 
 ## Docker
