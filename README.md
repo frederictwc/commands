@@ -35,6 +35,7 @@ lscpu                                              # check cpu hardware, archite
 hostnamectl                                        # check OS 
 df                                                 # check disk space
 hostname -I                                        # get IP address
+startx                                             # start GUI
 ```
 
 ## Docker
