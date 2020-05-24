@@ -36,6 +36,7 @@ hostnamectl                                        # check OS
 df                                                 # check disk space
 hostname -I                                        # get IP address
 startx                                             # start GUI
+ps -aux                                            # check processes
 ```
 
 ## Docker
