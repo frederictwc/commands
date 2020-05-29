@@ -138,3 +138,7 @@ How to push to existing branch
 ```
 git push origin <branch_name>
 ```
+How to merge branch into master branch: switch to master branch, then 
+```
+git merge <branch_name>
+```
