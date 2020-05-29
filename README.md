@@ -129,4 +129,12 @@ push an existing local repo onto github
 git remote add origin https://github.com/frederictwc/<repo>.git
 git push -u origin master
 ```
-
+How to create a new branch and move to it 
+```
+git branch <branch_name>
+git checkout <branch_name>
+```
+How to push to existing branch
+```
+git push origin <branch_name>
+```
