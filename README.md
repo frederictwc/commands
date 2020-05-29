@@ -99,3 +99,34 @@ try:
         plt.pause(0.1)
         plt.clf()
 ```
+## git
+create local git repository in the project folder, add files to this folder
+```
+git init
+```
+check for files that git has identified
+```
+git status
+```
+add a file to staging envir
+```
+git add <filename>
+```
+then package files into a commit
+```
+git commit -m "Your message about the commit"
+```
+create new branch and go into it
+```
+git checkout -b <my branch name>.
+```
+check branches
+```
+git branch
+```
+push an existing local repo onto github
+```
+git remote add origin https://github.com/frederictwc/<repo>.git
+git push -u origin master
+```
+
