@@ -117,10 +117,14 @@ push an existing local repo onto github
 git remote add origin https://github.com/frederictwc/<repo>.git
 git push -u origin master
 ```
-
 merge steps: first push changes in <branch_name>
 ```
 git checkout master
 git merge <new_branch>
 git push
+```
+update local master with origin
+```
+git fetch --all
+git reset
 ```
