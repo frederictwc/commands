@@ -142,3 +142,10 @@ How to merge branch into master branch: switch to master branch, then
 ```
 git merge <branch_name>
 ```
+merge steps
+```
+git fetch                  #check if local repo is up to date
+git checkout master
+git pull                   # ensure master branch has latest updates
+git merge <new_branch>
+```
