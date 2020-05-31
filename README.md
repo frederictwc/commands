@@ -106,7 +106,7 @@ git init                                      #create local git repository in th
 git status                                    # check for files that git has identified
 git add <filename>                            # add a file to staging envir
 git commit -m "Your message about the commit" # then package files into a commit
-git checkout -b <my branch name>.             # create new branch and go into it
+git checkout -b <my branch name>             # create new branch and go into it
 git branch                                    # check branches
 git push origin <branch_name>                 # push to existing branch
 git branch -d localBranchName                 # delete branch locally
