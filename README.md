@@ -111,6 +111,7 @@ git branch                                    # check branches
 git push origin <branch_name>                 # push to existing branch
 git branch -d localBranchName                 # delete branch locally
 git push origin --delete remoteBranchName     # delete branch remotely
+git push -u origin <branch_name>              # push local branch to remote
 ```
 push an existing local repo onto github
 ```
