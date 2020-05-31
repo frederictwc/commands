@@ -100,48 +100,22 @@ try:
         plt.clf()
 ```
 ## git
-create local git repository in the project folder, add files to this folder
+
 ```
-git init
-```
-check for files that git has identified
-```
-git status
-```
-add a file to staging envir
-```
-git add <filename>
-```
-then package files into a commit
-```
-git commit -m "Your message about the commit"
-```
-create new branch and go into it
-```
-git checkout -b <my branch name>.
-```
-check branches
-```
-git branch
+git init                                      #create local git repository in the project folder, add files to this folder
+git status                                    # check for files that git has identified
+git add <filename>                            # add a file to staging envir
+git commit -m "Your message about the commit" # then package files into a commit
+git checkout -b <my branch name>.             # create new branch and go into it
+git branch                                    # check branches
+git push origin <branch_name>                 # push to existing branch
 ```
 push an existing local repo onto github
 ```
 git remote add origin https://github.com/frederictwc/<repo>.git
 git push -u origin master
 ```
-How to create a new branch and move to it 
-```
-git branch <branch_name>
-git checkout <branch_name>
-```
-How to push to existing branch
-```
-git push origin <branch_name>
-```
-How to merge branch into master branch: switch to master branch, then 
-```
-git merge <branch_name>
-```
+
 merge steps: first push changes in <branch_name>
 ```
 git checkout master
