@@ -126,5 +126,5 @@ git push
 update local master with origin
 ```
 git fetch --all
-git reset
+git reset --hard origin/master
 ```
