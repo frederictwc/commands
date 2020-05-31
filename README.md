@@ -109,6 +109,8 @@ git commit -m "Your message about the commit" # then package files into a commit
 git checkout -b <my branch name>.             # create new branch and go into it
 git branch                                    # check branches
 git push origin <branch_name>                 # push to existing branch
+git branch -d localBranchName                 # delete branch locally
+git push origin --delete remoteBranchName     # delete branch remotely
 ```
 push an existing local repo onto github
 ```
