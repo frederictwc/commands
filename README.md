@@ -24,6 +24,7 @@ then run by
 ## bash general
 ```
 find / -name file                                  # search all directories from the root for a file. 
+find . -name file                                  # search current directory for a file
 control + h                                        # show hidden files in GUI
 echo 'Hello world'                                 # print
 ssh robotdata@192.168.50.163                       # ssh
