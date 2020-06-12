@@ -114,6 +114,7 @@ git branch -d localBranchName                 # delete branch locally
 git push origin --delete remoteBranchName     # delete branch remotely
 git push -u origin <branch_name>              # push local branch to remote
 git mv <source> <destination>                 # move folder, remember to push 
+git clone --single-branch --branch <branchname> <remote-repo> #clone single branch
 ```
 push an existing local repo onto github
 ```
