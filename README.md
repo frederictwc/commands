@@ -128,7 +128,7 @@ git checkout master
 git merge <new_branch>
 git push
 ```
-add a local branch( <local branch> ) in repo1 to a new remote branch( <new remote branch> ) in repo2
+add a local branch <local branch> in repo1 to a new remote branch <new remote branch> in repo2
 ```
 git remote add origin2 https://github.com/frederictwc/<repo2>.git
 git push origin2 <local branch>:<new remote branch>
