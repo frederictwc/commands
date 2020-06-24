@@ -38,6 +38,7 @@ df                                                 # check disk space
 hostname -I                                        # get IP address
 startx                                             # start GUI
 ps -aux                                            # check processes
+sudo du -sh <dir>                                  # check file size in <dir>
 ```
 
 ## Docker
