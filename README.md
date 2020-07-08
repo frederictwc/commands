@@ -139,6 +139,11 @@ git fetch --all
 git reset --hard origin/master
 ```
 ## DIGITS
+start container with DIGITS
 ```
 docker run --gpus all -d -p 8888:5000 <image>
+```
+open following link in browser 
+```
+<digits computer ip>:8888 
 ```
