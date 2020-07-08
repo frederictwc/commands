@@ -138,3 +138,7 @@ update local master with origin
 git fetch --all
 git reset --hard origin/master
 ```
+## DIGITS
+```
+docker run --gpus all -d -p 8888:5000 <image>
+```
