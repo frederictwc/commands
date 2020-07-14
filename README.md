@@ -44,8 +44,19 @@ sudo du -sh <dir>                                  # check file size in <dir>
 ```
 ipconfig getifaddr en0                             # get ip address
 ```
-
-
+### How to run a GUI docker in OSX
+run xquartz
+```
+open -a XQuartz
+```
+make sure preferences/security is allowing connections from network clients
+```
+socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+```
+open a new terminal and run docker container
+```
+docker run -d -e DISPLAY=<ip address of computer>:0 <docker image>
+```
 ## Docker
 
 ### How to run a python script inside a container 
