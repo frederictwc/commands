@@ -40,6 +40,11 @@ startx                                             # start GUI
 ps -aux                                            # check processes
 sudo du -sh <dir>                                  # check file size in <dir>
 ```
+## OSX
+```
+ipconfig getifaddr en0                             # get ip address
+```
+
 
 ## Docker
 
