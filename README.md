@@ -57,6 +57,14 @@ open a new terminal and run docker container
 ```
 docker run -d -e DISPLAY=<ip address of computer>:0 <docker image>
 ```
+alternatively, run with interactive mode then go into container
+```
+docker run -it -d -e DISPLAY=<ip address of computer>:0 <docker image>
+```
+then open a terminal in container 
+```
+docker exec -it <container name> /bin/bash
+```
 ## Docker
 
 ### How to run a python script inside a container 
