@@ -112,6 +112,7 @@ docker run --privileged image_id              # pass all devices to container
 x11docker --share /dev/usb2 realsense         #pass a device and run GUI container
 x11docker --webcam image_id                   # pass any webcam into GUI container
 docker run -it -v <path outside container>:<path inside container> test_1 bash # pass a directory into container.
+docker run -it -v ~/frederictwc/tracking/test-gui:/frederictwc/tracking/test-gui -e DISPLAY=10.0.202.26:0    test # tried running cv2.imshow, opens window then immediately closes. but even in that quick second the image is all black
 ```
 
 ## matplotlib
