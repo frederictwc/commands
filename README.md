@@ -111,6 +111,7 @@ docker run --device=/dev/video3 image_id      # pass a device and run container(
 docker run --privileged image_id              # pass all devices to container
 x11docker --share /dev/usb2 realsense         #pass a device and run GUI container
 x11docker --webcam image_id                   # pass any webcam into GUI container
+docker run -it -v <path outside container>:<path inside container> test_1 bash # pass a directory into container.
 ```
 
 ## matplotlib
