@@ -35,6 +35,7 @@ scp -r robotdata@192.168.1.127:~/Documents/jetson_inference /home/fred/Documents
 lscpu                                              # check cpu hardware, architecture
 hostnamectl                                        # check OS 
 df                                                 # check disk space
+du -h --max-depth=1                                # size of directories
 hostname -I                                        # get IP address
 startx                                             # start GUI
 ps -aux                                            # check processes
