@@ -1,5 +1,8 @@
 # Commands
 
+##nvidia
+watch -n 1 nvidia-smi
+
 ## virtualenv, virtualenvwrapper
 
 ```
