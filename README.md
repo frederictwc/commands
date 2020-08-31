@@ -170,6 +170,11 @@ update local master with origin
 git fetch --all
 git reset --hard origin/master
 ```
+clone a repo with submodules, after cloning
+```
+git submodule init
+git submodule update
+```
 ## DIGITS
 start container with DIGITS
 ```
