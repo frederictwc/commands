@@ -147,6 +147,7 @@ git push origin --delete remoteBranchName     # delete branch remotely
 git push -u origin <branch_name>              # push local branch to remote
 git mv <source> <destination>                 # move folder, remember to push 
 git clone --single-branch --branch <branchname> <remote-repo> #clone single branch
+git submodule add <repo> <dir>                # add submodule, still need to commit
 ```
 push an existing local repo onto github
 ```
