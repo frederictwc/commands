@@ -44,6 +44,7 @@ startx                                             # start GUI
 ps -aux                                            # check processes
 sudo du -sh <dir>                                  # check file size in <dir>
 for filename in ./*; do mv "./$filename" "./$(echo "$filename" | sed -e 's/test.extra//g')";  done # remove part of filename of all files in directory
+arp -a                                             # scan IP addresses on network
 ```
 ## OSX
 ```
