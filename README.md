@@ -31,6 +31,7 @@ find . -name file                                  # search current directory fo
 control + h                                        # show hidden files in GUI
 echo 'Hello world'                                 # print
 ssh robotdata@192.168.50.163                       # ssh
+ssh -p <port> <computer_name>@<public_ip>          # ssh from outside network
 scp /path/to/file username@a:/path/to/destination  # to copy a file from B to A while logged into B, a= IP
 scp username@b:/path/to/file /path/to/destination  # To copy a file from B to A while logged into A
 scp -r robotdata@192.168.1.127:~/Documents/jetson_inference /home/fred/Documents/jetson-nano-backup
