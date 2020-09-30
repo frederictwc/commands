@@ -1,7 +1,5 @@
 # Commands
 
-docker run --gpus all -d --ipc=host -p 0.0.0.0:${PORT}:5000 -v $(pwd)/facebank:/workspace/src/pytorch_mtcnn_arcface/facebank/ -v $(pwd)/logs:/workspace/logs/ --network="host" --name fr_server --restart always fr_server 
-
 ##nvidia
 watch -n 1 nvidia-smi
 
