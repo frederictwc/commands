@@ -47,6 +47,9 @@ sudo du -sh <dir>                                  # check file size in <dir>
 for filename in ./*; do mv "./$filename" "./$(echo "$filename" | sed -e 's/test.extra//g')";  done # remove part of filename of all files in directory
 arp -a                                             # scan IP addresses on network
 sshpass -p robot-data3388 scp start.sh rd-dev@192.168.50.101:~/Desktop/HKPCFacialRecognition  # scp with a password
+sudo lsof -i -P -n | grep LISTEN                   # check all ports in use
+pkill -f "Process name"                            # kill process by name
+
 ```
 ## OSX
 ```
