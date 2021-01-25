@@ -155,6 +155,7 @@ git mv <source> <destination>                 # move folder, remember to push
 git clone --single-branch --branch <branchname> <remote-repo> #clone single branch
 git submodule add <repo> <dir>                # add submodule, still need to commit
 git submodule foreach git pull                # git pull for all submodules
+git remote | xargs -n1 git remote remove      # remove all remotes
 ```
 push an existing local repo onto github
 ```
