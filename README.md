@@ -12,6 +12,12 @@ source Documents/virtualenvs/realsense/bin/activate  # activate virtualenv in my
 deactivate
 ```
 virtualenv files are located in home directory but hidden
+for python3
+```
+python3 -m venv <venv_name>
+source <venv_name/bin/activate>
+```
+
 
 ## C++
 how to run a c++ program
