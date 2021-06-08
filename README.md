@@ -57,6 +57,13 @@ sudo lsof -i -P -n | grep LISTEN                   # check all ports in use
 pkill -f "Process name"                            # kill process by name
 
 ```
+## How to port forward over external IP
+Open a terminal and run the following command. In this example we are mapping port 5000 on 192.168.50.101 to our current IP
+```
+ssh -p 2345 aaa@42.200.73.179 -L 50001:192.168.50.101:5000
+```
+Open a browser and go to 50001.
+
 ## OSX
 ```
 ipconfig getifaddr en0                             # get ip address
